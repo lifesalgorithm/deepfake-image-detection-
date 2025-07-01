@@ -34,14 +34,6 @@ EfficientNet-B0 Test Accuracy: ~86.31%
 
 EfficientNet-B0 performed better on this dataset.
 
-🗂️ Directory Structure
-bash
-Copy
-Edit
-├── deepfake_detection.py   # Main training & evaluation script
-├── README.md               # Project description
-├── best_model.pth          # Saved best model weights
-└── dataset/                # Kaggle dataset download
 
 How it Works
 Data Loading & EDA: Checks for corrupt images, missing data, class imbalance, and visualizes samples.
