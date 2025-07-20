@@ -39,16 +39,12 @@ EfficientNet-B0 performed better on this dataset.
 
 
 How it Works:  
-Data Loading & EDA: Checks for corrupt images, missing data, class imbalance, and visualizes samples.
-
-Preprocessing: Resizes images, augments training data.
-Custom Dataset: PyTorch Dataset class handles transformations and labels.
-
-Model Definition: Loads pre-trained ResNet50 and EfficientNet-B0; modifies final layers for binary output.
-
-Training Loop: Uses BCE loss, Adam optimizer, and scheduler.
-Evaluation: Tests on hold-out data, visualizes predictions, plots confusion matrix.
-
+Data Loading & EDA: Checks for corrupt images, missing data, class imbalance, and visualizes samples.         
+Preprocessing: Resizes images, augments training data.                 
+Custom Dataset: PyTorch Dataset class handles transformations and labels.          
+Model Definition: Loads pre-trained ResNet50 and EfficientNet-B0; modifies final layers for binary output.           
+Training Loop: Uses BCE loss, Adam optimizer, and scheduler.                 
+Evaluation: Tests on hold-out data, visualizes predictions, plots confusion matrix.            
 Model Selection: Saves the best-performing model.
 
 Next Steps / Improvements:  
